@@ -1,0 +1,123 @@
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Barlow';
+    color: rgb(0, 0, 0);
+}        
+
+/* Basic styles for the navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    padding: 10px 20px;
+    padding-bottom: 13px; 
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 40px; /* Adjust the size of the logo */
+    width: auto;
+    margin-top: 10px;
+}
+
+/* Links aligned to the right */
+.navbar .nav-links {
+    display: flex;
+    gap: 15px; /* Space between links */
+    margin-left: auto; /* Pushes the links to the right */
+    margin-right: 40px;
+}
+
+/* Link styles */
+.navbar .nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-family: 'Barlow';
+}
+
+.navbar .nav-links a:hover {
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+}
+
+.main-text {
+    position: absolute;
+    max-width: 800px;
+    top: 300px;
+    left: 100px;
+    font-family: 'Barlow';
+}
+
+.main-text h1 {
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 
+}
+
+.main-text p {
+    color: ;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 28px;
+    width: 500px;
+    position: relative;
+    top: 25px;
+}
+
+.main-text a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-image {
+    position: fixed;
+    top: 200px; /* Align with the top of the text */
+    left: 800px; /* Adjust to position the image to the right of the text */
+}
+
+.main-image img {
+    width: 1000px; /* Smaller image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 2px; /* Optional for rounded corners */
+}
+
+.sabawoon {
+    position: absolute;
+    max-width: 800px;
+    top: 1300px;
+    left: 100px;
+    font-family: 'Barlow';
+}
+
+.sabawoon h2 {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family:
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Barlow';
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -28px;
+}
